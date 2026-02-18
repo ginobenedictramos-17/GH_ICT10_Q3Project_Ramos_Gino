@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>OBMC Intramurals: Main Website</title>
+    <style>
+    body {
+        background-color: #598392;
+        color: #FFFFEA;
+        font-size: 25px;
+        text-align: center;
+        }
+    ul {
+    list-style-type: none;
+    background-color: #758173;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #FFFFEA;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+    ul, li {
+    float: left;
+}    
+.container {
+    background-color: #C8D5B9;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+
+}
+ a {
+    color: inherit;
+}
+.button {
+    width: 45px;
+    height: 45px;
+    border-radius: auto;
+    font-size: medium;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjUvQbhS8x9R3mRK37tdOL5Tl47qdvZtoWkw&s" width="70px" height="70px"></li>
+            <li>OBMC Intramurals: Main Website</li>
+            <li><a href="https://ginobenedictramos-17.github.io/GH_ICT10_Q3SW2_Ramos_Gino/" target="_blank">Team Verifier</a></li>
+            <li><a href="https://ginobenedictramos-17.github.io/GH_ICT10_Q3SkillsTest_Ramos_Gino/" target="_blank">Account Creator</a></li>
+        </ul>
+    </div>
+    <br>
+    <h2>High School Intramurals Main Website</h2> <br>
+    <p>The High School Intramurals of OBMC has always provided an avenue for students to showcase their competitiveness in sports while also maintaining a noble trait of sportsmanship. This website is where you can find the roster of players in this edition of the intrams. These players are equiped with all the skills to show the whole OBMC community who they really are. Win or lose, it's the school we choose. </p>
+    <br>
+    <div class="container">
+        <h3>Roster List #WinOrLoseItsTHESCHOOLWECHOOSE</h3>
+    <h3>Check your player rosters here</h3>
+    <form>
+        <button type="button" id="boys" py-click="show_boys">Boys</button>
+        <button type="button" id="girls" py-click="show_girls">Girls</button>
+    </form>
+    </div>
+    <div id="output" class="container"></div>
+    
+    <py-script src="main.py"></py-script>
+</body>
+</html>
