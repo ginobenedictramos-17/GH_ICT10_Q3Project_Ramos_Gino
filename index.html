@@ -12,6 +12,7 @@
         color: #FFFFEA;
         font-size: 25px;
         text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         }
     ul {
     list-style-type: none;
@@ -20,7 +21,7 @@
     padding: 0;
     overflow: hidden;
     color: #FFFFEA;
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
     width: 100%;
 }
@@ -38,11 +39,23 @@
  a {
     color: inherit;
 }
-.button {
-    width: 45px;
-    height: 45px;
+#boys {
+    width: 50px;
+    height: 50px;
     border-radius: auto;
     font-size: medium;
+    background-color: #E56399;
+}
+#girls {
+    width: 50px;
+    height: 50px;
+    border-radius: auto;
+    font-size: medium;
+    background-color: blue;
+    color: white;
+}
+.container.mb-3.mt-3 {
+    background-color: #D1CAA1;
 }
     </style>
 </head>
@@ -66,8 +79,8 @@
         <button type="button" id="boys" py-click="show_boys">Boys</button>
         <button type="button" id="girls" py-click="show_girls">Girls</button>
     </form>
-    </div>
-    <div id="output" class="container"></div>
+    </div><br>
+    <div id="output" class="container mb-3 mt-3"></div>
     
     <py-script src="main.py"></py-script>
 </body>
