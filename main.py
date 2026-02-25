@@ -1,9 +1,9 @@
 from pyscript import display, document
-#needed consultation from AI to figure out how to make the button coordinate with the list
+#needed consultation from AI to figure out how to make the button in html coordinate with the list
 
-Boys = ["Gino Ramos", "Dwight Ramos", "Gurnoor Sidhu", "Lebron James", "Shohei Ohtani", "Lionel Messi", "Cristiano Ronaldo", "Oscar Barrientos", "Josua Ortiz", "Kylian Mbappe"]
+Boys = ["Abayon", "Barrientos", "Coeli", "David", "Ibay", "Mamauag", "Ramos", "Sidhu"]
 
-Girls = ["Caitlin Clark", "Serena Williams", "Alex Eala", "Sam Kerr", "Gina Benedicta Ramos", "Bella Belen", "Detdet Pepito", "Bianca Bustamante", "Shevanna Laput"]
+Girls = ["Antes", "Casal", "Dela Cruz, F", "Dellejero", "Fukuda", "Gozum", "Lozano", "Villamayor", "Tiu"]
 def show_boys(e):
 
     display(f'Boys: {str(Boys)}', target="output")
